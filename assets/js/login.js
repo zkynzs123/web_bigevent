@@ -60,7 +60,7 @@ $(function() {
       //将登录获取到的token值存储到本地存储中
       localStorage.setItem('token' , res.token)
        //跳转到后台主页
-      //  location.href = './index.html'
+       location.href = './index.html'
       }
     })
    })
